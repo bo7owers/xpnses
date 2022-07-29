@@ -2,6 +2,7 @@
 console.log(
   "Hero Image by Olia Danilevich https://www.pexels.com/photo/back-to-school-flatlay-5088007/"
 );
+
 </script>
 <template>
   <header class="hero-header">
