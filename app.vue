@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref, onMounted, watch } from "vue";
+import { useUNameStore } from "@/stores/index";
 
 const name = ref<string>();
 
@@ -20,6 +21,8 @@ onMounted(() => {
       Hello
       <span class="u-name" v-if="name !== null || undefined">{{ name }}</span>
     </h2>
+
+    <p v-if="name === null || undefined">What's your name?</p>
     <input
       type="text"
       name="message"
@@ -27,7 +30,7 @@ onMounted(() => {
       placeholder="Write your name here"
       v-model="name"
       autocomplete="off"
-      v-if="name !== null || undefined"
+      v-if="name === null || undefined"
     />
   </div>
 </template>
