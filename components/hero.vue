@@ -27,6 +27,7 @@ header.hero-header {
     top: 25%;
     z-index: 100;
     color: hsl(0, 0%, 100%);
+    padding: 0 1.25rem;
 
     &::before {
       content: "";
@@ -36,7 +37,8 @@ header.hero-header {
       height: 35vh;
       background-color: hsl(204, 100%, 25%);
       opacity: 0.3;
-      top: -85%;
+      top: -57%;
+      left: 0;
       z-index: 0;
     }
   }
