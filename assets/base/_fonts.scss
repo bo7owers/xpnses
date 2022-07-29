@@ -1,0 +1,31 @@
+/* abel-regular - latin */
+@font-face {
+  font-family: "Abel";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../../fonts/abel-v18-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../../fonts/abel-v18-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+h {
+  &1 {
+    font-family: "Abel", sans-serif;
+  }
+  &2 {
+    font-family: "Abel", sans-serif;
+  }
+  &3 {
+    font-family: "Abel", sans-serif;
+  }
+  &4 {
+    font-family: "Abel", sans-serif;
+  }
+  &5 {
+    font-family: "Abel", sans-serif;
+  }
+  &6 {
+    font-family: "Abel", sans-serif;
+  }
+}
