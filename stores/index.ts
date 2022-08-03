@@ -9,4 +9,6 @@ export const useUNameStore = defineStore("userName", () => {
   onMounted(() => {
     name.value = localStorage.getItem("userName");
   });
+
+  return { name };
 });
