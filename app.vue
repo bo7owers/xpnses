@@ -30,7 +30,6 @@ onMounted(() => {
       placeholder="Write your name here"
       v-model="name"
       autocomplete="off"
-      v-if="name === null || undefined"
     />
   </div>
 </template>
