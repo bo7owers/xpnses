@@ -2,7 +2,6 @@
 console.log(
   "Hero Image by Olia Danilevich https://www.pexels.com/photo/back-to-school-flatlay-5088007/"
 );
-
 </script>
 <template>
   <header class="hero-header">
@@ -12,7 +11,7 @@ console.log(
     </h1>
   </header>
 </template>
-<style lang="scss">
+<style lang="scss" scoped>
 @use "../assets/scss/utils/mixins/breakpoints" as b;
 header.hero-header {
   display: flex;
