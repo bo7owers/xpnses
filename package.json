@@ -8,7 +8,7 @@
     },
     "devDependencies": {
         "nuxt": "3.0.0",
-        "sass": "^1.56.1"
+        "sass": "^1.57.0"
     },
     "dependencies": {
         "@pinia/nuxt": "^0.4.5"
